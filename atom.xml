@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xiaobingyue.github.io/"/>
-  <updated>2020-04-21T01:55:52.136Z</updated>
+  <updated>2020-04-23T06:53:40.372Z</updated>
   <id>https://xiaobingyue.github.io/</id>
   
   <author>
@@ -17,33 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://xiaobingyue.github.io/2020/04/23/hello-world/"/>
-    <id>https://xiaobingyue.github.io/2020/04/23/hello-world/</id>
-    <published>2020-04-23T06:00:49.768Z</published>
-    <updated>2020-04-21T01:55:52.136Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>VirtualBox+Vagrant快速搭建跨平台开发环境</title>
     <link href="https://xiaobingyue.github.io/2020/04/21/vagrant-virtualbox/"/>
     <id>https://xiaobingyue.github.io/2020/04/21/vagrant-virtualbox/</id>
     <published>2020-04-21T08:14:15.000Z</published>
-    <updated>2020-04-22T08:44:48.524Z</updated>
+    <updated>2020-04-23T06:53:40.372Z</updated>
     
     <summary type="html">
     
@@ -67,6 +45,28 @@
       <category term="virtual Box" scheme="https://xiaobingyue.github.io/tags/virtual-Box/"/>
     
       <category term="centOS" scheme="https://xiaobingyue.github.io/tags/centOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://xiaobingyue.github.io/2020/04/21/hello-world/"/>
+    <id>https://xiaobingyue.github.io/2020/04/21/hello-world/</id>
+    <published>2020-04-21T08:13:15.000Z</published>
+    <updated>2020-04-23T06:53:36.801Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
     
   </entry>
   

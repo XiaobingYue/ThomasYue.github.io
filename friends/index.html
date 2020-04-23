@@ -740,6 +740,29 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                     </div>
                 </div>
                 
+                
+                <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                    <div class="card frind-card2">
+                        <div class="frind-ship">
+                            <div class="title">
+                                <img src="https://sunhwee.com/hwsun.jpg" alt="img">
+                                <div>
+                                    <h1 class="friend-name">洪卫の博客</h1>
+                                    <!-- 洪卫 shw2018 modify 2019.08.30 -->
+                                    <p class="friend-introduction">UESTC CVer！</p>
+                                    <!-- <p>UESTC CVer！</p> -->
+                                </div>
+                            </div>
+                            <div class="friend-button">
+                                <a href="https://sunhwee.com" target="_blank"
+                                    class="button button-glow button-rounded button-caution">
+                                    偷看一下
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
             
         </article>
@@ -861,10 +884,9 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
     } /*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/
     siteTime();
     $(document).ready(function () {
-
         var int = setInterval(fixCount, 50);  // 50ms周期检测函数
-        var pvcountOffset = 80000;  // 初始化首次数据
-        var uvcountOffset = 20000;
+        var pvcountOffset = 0;  // 初始化首次数据
+        var uvcountOffset = 0;
 
         function fixCount() {
             if (document.getElementById("busuanzi_container_site_pv").style.display != "none") {
