@@ -81,7 +81,7 @@
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
                     
-                    <img src="/medias/avatars/avatar.jpg" class="logo-img" alt="LOGO">
+                    <img src="/medias/avatars/avatar.jpg" class="logo-img" style="border-radius: 50%">
                     
                     <span class="logo-span">ThomasYue</span>
                 </a>
@@ -539,39 +539,53 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                         <i class="fa fa-music"></i>&nbsp;&nbsp;[object Object]
                     </div>
                     
-                        <!-- shw2018 洪卫  modify 2019.08.15-->
+                        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
 
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        font-size: 15px;
+        color: #42b983;
+    }
 
-<link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
-<div class="music-player">
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
     
     <div class="row">
-        
-        
-        <div class="col s12 ">
-            <div id="aplayer" class="music"></div>
-        </div>
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="4973203435"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='list'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
     </div>
 </div>
 
 <script src="/libs/aplayer/APlayer.min.js"></script>
-<script>
-    $(function () {
-        new APlayer({
-            container: document.getElementById('aplayer'),
-            fixed: 'true' === 'true',
-            autoplay: 'false' === 'true',
-            theme: '#42b983',
-            loop: 'all',
-            order: 'list',
-            preload: 'auto',
-            volume: Number('0.7'),
-            listFolded: 'true' === 'true',
-            listMaxHeight: '',
-            audio: JSON.parse('')
-        });
-    });
-</script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
                     
 
                 </div>
@@ -885,10 +899,6 @@ $(function () {
         </script>
 
         <!-- 鼠标点击烟花爆炸效果  洪卫 shw2018 add 2019.09.09 -->
-        
-            <canvas class="fireworks" style="position: fixed; left: 0; top: 0; z-index: 1; pointer-events: none;"></canvas>
-            <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
-            <script type="text/javascript" src="/js/fireworks.js"></script>
         
 
         <!-- 背景雪花飘落特效洪卫 shw2018 add 2019.09.10 -->
