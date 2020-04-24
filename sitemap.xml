@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xiaobingyue.github.io/contact/index.html</loc>
+    
+    <lastmod>2020-04-24T10:48:10.283Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://xiaobingyue.github.io/2020/04/21/vagrant-virtualbox/</loc>
     
     <lastmod>2020-04-23T06:53:40.372Z</lastmod>
@@ -23,14 +30,7 @@
   </url>
   
   <url>
-    <loc>https://xiaobingyue.github.io/contact/index.html</loc>
-    
-    <lastmod>2020-04-23T05:56:09.985Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://xiaobingyue.github.io/tags/index.html</loc>
+    <loc>https://xiaobingyue.github.io/galleries/index.html</loc>
     
     <lastmod>2020-04-22T11:54:26.842Z</lastmod>
     
@@ -51,9 +51,16 @@
   </url>
   
   <url>
-    <loc>https://xiaobingyue.github.io/galleries/index.html</loc>
+    <loc>https://xiaobingyue.github.io/tags/index.html</loc>
     
     <lastmod>2020-04-22T11:54:26.842Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xiaobingyue.github.io/categories/index.html</loc>
+    
+    <lastmod>2020-04-22T11:54:26.841Z</lastmod>
     
   </url>
   
@@ -66,13 +73,6 @@
   
   <url>
     <loc>https://xiaobingyue.github.io/archives/index.html</loc>
-    
-    <lastmod>2020-04-22T11:54:26.841Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://xiaobingyue.github.io/categories/index.html</loc>
     
     <lastmod>2020-04-22T11:54:26.841Z</lastmod>
     
