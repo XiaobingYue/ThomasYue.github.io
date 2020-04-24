@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.yxb.cool/contact/index.html</loc>
+    
+    <lastmod>2020-04-24T12:30:55.093Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.yxb.cool/2020/04/24/docker-install/</loc>
     
     <lastmod>2020-04-24T12:13:00.379Z</lastmod>
@@ -44,13 +51,6 @@
   </url>
   
   <url>
-    <loc>https://blog.yxb.cool/contact/index.html</loc>
-    
-    <lastmod>2020-04-24T10:48:10.283Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.yxb.cool/2020/04/21/vagrant-virtualbox/</loc>
     
     <lastmod>2020-04-23T06:53:40.372Z</lastmod>
@@ -68,6 +68,13 @@
     <loc>https://blog.yxb.cool/about/index.html</loc>
     
     <lastmod>2020-04-23T05:57:11.517Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.yxb.cool/galleries/index.html</loc>
+    
+    <lastmod>2020-04-22T11:54:26.842Z</lastmod>
     
   </url>
   
@@ -93,21 +100,14 @@
   </url>
   
   <url>
-    <loc>https://blog.yxb.cool/galleries/index.html</loc>
-    
-    <lastmod>2020-04-22T11:54:26.842Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.yxb.cool/archives/index.html</loc>
+    <loc>https://blog.yxb.cool/friends/index.html</loc>
     
     <lastmod>2020-04-22T11:54:26.841Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.yxb.cool/friends/index.html</loc>
+    <loc>https://blog.yxb.cool/archives/index.html</loc>
     
     <lastmod>2020-04-22T11:54:26.841Z</lastmod>
     
